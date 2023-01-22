@@ -54,4 +54,12 @@
     white-space: pre-wrap;
     word-wrap: break-word;
   }
-  
+  /* Navbar Designe */
+  .navbar-nav {
+      margin-left: auto;
+  }
+
+  .navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }

@@ -1,14 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import Header from "./Header";
+import Header from "./Navbar";
 import Footer from "./Footer";
-import Note from "./Note.jsx";
-
+import Navbar from "./Navbar";
 function App() {
     return (
         <div>
-            <Header />
-            <Note />
+            <Navbar />
             <Footer />
         </div>
         );
