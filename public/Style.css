@@ -73,6 +73,11 @@
   }
 
 
+  #CCard{
+    background-color: #3C8CE7;
+  }
+
+
   .card-container {
     border-radius: 4px;
     background-color: white;
@@ -91,11 +96,37 @@
   margin: 0 -110px ; /* This will remove the left and right margins */
 }
 
-.bg-image {
-  background-color: blue;
-  border-radius: 70%;
+.bg-image1 {
+  background-image: url("Images/bg-img.png");
   background-position: center;
+  margin-top: 5px;
   background-repeat: no-repeat;
-  background-size: 0.1rem ;
+  background-size: 90% ;
+  
 }
 
+.bg-image3 {
+  background-image: url("Images/bg-img.png");
+  background-position: center;
+  margin-top: 5px;
+  background-repeat: no-repeat;
+  background-size: 90% ; 
+}
+
+
+.bg-image2 {
+  background-image: url("Images/bg-img2.png");
+  background-position: center;
+  mix-blend-mode: screen;
+  margin-top: 7px;
+  background-repeat: no-repeat;
+  background-size: 90% ;
+  
+}
+
+
+
+#crdbg-color{
+  background-color: #3C8CE7;
+  
+}
