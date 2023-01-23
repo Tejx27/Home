@@ -71,3 +71,31 @@
   .btn-group button:last-child {
     margin-left: 10px;
   }
+
+
+  .card-container {
+    border-radius: 4px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .img-center{
+  
+   margin: 0 auto;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+ }
+ .col-spacing {
+  margin: 0 -110px ; /* This will remove the left and right margins */
+}
+
+.bg-image {
+  background-color: blue;
+  border-radius: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.1rem ;
+}
+
