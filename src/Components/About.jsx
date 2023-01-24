@@ -8,7 +8,7 @@ import {
 function About() {
   return (
     <div>
-      <h4  id="about" className="text-center text-info">About us</h4>
+      <h4  id="about" className="text-center">About us</h4>
       <img
         className="imgctr mt-3"
         style={{ height: "20px", width: "70px" }}

@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Services from "./Services";
 import About from './About';
+import Blog from "./Blog";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
             />
             <Services/>
             <About />
+            <Blog/>
             <Footer />
         </div>
         );

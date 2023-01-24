@@ -21,7 +21,7 @@ function Services() {
     </CCard>
   </CCol>
   <CCol xs md lg xl className="col-spacing" >
-    <CCard id="crdbg-color" style={{borderColor:"#FFFFFF",borderRadius: '2rem',width:'35%',margin:'0 auto'}}>
+    <CCard id="crdbg-color" style={{borderColor:"black",borderRadius: '2rem',width:'35%',margin:'0 auto'}}>
       <CCardImage className="img-center bg-image2" orientation="top" style={{height:"100px",width:"90px"}} src="Images/card2.png" />
       <CCardBody>
         <CCardText className="text-center text-white">
@@ -33,7 +33,7 @@ function Services() {
   </CCol>
   <CCol xs md lg xl className="col-spacing">
 
-    <CCard style={{borderRadius: '2rem',width:'35%',margin:'0 auto'}}>
+    <CCard style={{borderColor:"#3C8CE7",borderRadius: '2rem',width:'35%',margin:'0 auto'}}>
       <CCardImage className="img-center bg-image3" style={{height:"130px",width:"80px"}} orientation="top" src="Images/card3.png" />
       <CCardBody>
         <CCardText className="text-center text-info">

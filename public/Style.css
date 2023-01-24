@@ -11,19 +11,6 @@
     padding: 0 16px;
   }
   
-  header {
-    background-color: #f5ba13;
-    margin: auto -16px;
-    padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  }
-  
-  header h1 {
-    color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
-  }
-  
   footer {
     position: relative;
     text-align: center;
@@ -158,4 +145,10 @@ p,pre{
   .col-4:first-child img {
     margin-end: 0;
   }
+}
+
+.cctr{
+  background-color: #3C8CE7;
+  margin-left: 20rem;
+  margin-left: 20rem;
 }
