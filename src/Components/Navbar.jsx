@@ -13,18 +13,18 @@ function Navbar(){
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#home">
                   Home
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                  About
+                <a class="nav-link" href="#services">
+                  Services
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Services
+                <a class="nav-link" href="#about">
+                  About
                 </a>
             </li>
             <li class="nav-item">

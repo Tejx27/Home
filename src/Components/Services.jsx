@@ -6,7 +6,7 @@ import { CCardBody,CCard,CCardText,CCol,CRow,CCardImage} from '@coreui/react';
 function Services() {
   return (
     <div class="container">
-      <h5 class="text-center text-info">OUR SERVICES</h5>
+      <h5 id="services" class="text-center text-info">OUR SERVICES</h5>
       <p class="text-center">What we offer for you</p>
       <CRow className="card-container" xs={{ cols: 1, gutter: 4 }} xl={12} sm={6} md={4} lg={3}>
       <CCol xs md lg xl className="col-spacing">
@@ -45,6 +45,7 @@ function Services() {
   </CCol>
   </CRow>
   <hr />
+  
 </div>
   );
 }

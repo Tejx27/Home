@@ -4,10 +4,10 @@ import App from "./App";
 function Home(props) {
   return (
     // First content
-    <div class="container mt-4">
+    <div id="home" class="container mt-4">
       <div class="row">
         <div class="col-sm mt-3">
-          <h5 class="text-info">{props.name}</h5>
+          <h5  class="text-info">{props.name}</h5>
           <br />
           <p>
             {props.para1}

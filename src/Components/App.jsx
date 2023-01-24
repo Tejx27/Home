@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Services from "./Services";
+import About from './About';
 
 function App() {
     return (
@@ -17,12 +18,13 @@ function App() {
                 btn2="Get Started"
                 img1="Images/home1.png"
                 name2="CONDUCT YOUR SURVEY AND VALIDATE YOUR IDEA"
-                paragraph="valid helps entrepreneurs validates there ideas and validate the market faster with real-time data."
+                paragraph="Valid helps entrepreneurs validates there ideas and validate the market faster with real-time data."
                 img2="Images/home2.png"
                 secpara="Get the market insights in your inbox."
                 btn3="Validate your idea"
             />
             <Services/>
+            <About />
             <Footer />
         </div>
         );
