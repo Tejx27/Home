@@ -4,7 +4,7 @@ import {CContainer,CCol,CRow} from '@coreui/react';
 function Blog() {
   return (
     <div className="conatiner sm-4 mt-3">
-      <CContainer>
+      <CContainer >
   <CRow>
     <CCol></CCol>
     <CCol xs={10}>
@@ -18,6 +18,36 @@ function Blog() {
   </CRow>
 
 </CContainer>
+
+<CContainer className="mt-5" >
+  <CRow>
+    <CCol></CCol>
+    <CCol style={{backgroundColor:"#DBFEFF"}} xs={12}>
+    <CRow  className="text-center mt-5 pt-4 pb-4">
+    <CCol  xs={3}> <img
+        className="imgctr "
+        style={{ height: "40px", width: "90px" }}
+        src="Images/brandLogo.png" alt="logo"
+      /></CCol>
+    <CCol  xs={3}>
+          <h4>Company</h4>
+          <p>Blog</p>
+          <p>Services</p>
+          <p>About us</p>
+          <p>Conatact us</p>
+    </CCol>
+    <CCol  xs={4}>
+      <h4>Social</h4>
+      
+    </CCol>
+    </CRow>
+    </CCol>
+    <CCol></CCol>
+  </CRow>
+
+</CContainer>
+
+  
 
     </div>
   );
