@@ -4,13 +4,12 @@ import { CContainer, CCol, CRow } from "@coreui/react";
 function Blog() {
   return (
     <div className="conatiner sm-4 mt-3">
-      <CContainer>
+      <CContainer id="blog">
         <CRow>
           <CCol></CCol>
           <CCol xs={10}>
             <CRow className="text-center bg-info rounded-pill pt-5 pb-5">
               <CCol xs={4}>
-                {" "}
                 <h5 className="text-center text-light mt-2 ">
                   Subscribe Newsletters
                 </h5>
@@ -53,16 +52,16 @@ function Blog() {
               </CCol>
               <CCol xs={3}>
                 <h4>Company</h4>
-                <p>Blog</p>
-                <p>Services</p>
-                <p>About us</p>
-                <p>Conatact us</p>
+                <a  class="cmpny" href="#blog"><p>Blog</p></a>
+                <a  class="cmpny" href="#services"><p>Services</p></a>
+                <a  class="cmpny" href="#about"><p>About us</p></a>
+                <a  class="cmpny" href="#about"> <p>Conatact us</p></a>
               </CCol>
               <CCol xs={4}>
                 <h4>Social</h4> <br />
                 <CRow className="justify-content-center">
                   <CCol xs={2}>
-                    <a href="https://www.instagram.com/tejx_31/">
+                    <a href="https://www.instagram.com/tejx_31/"  target={"_blank"}>
                       <img
                         src="Images/Insta.png"
                         style={{ height: "40px", width: "40px" }}
@@ -71,7 +70,7 @@ function Blog() {
                     </a>
                   </CCol>
                   <CCol xs={2}>
-                    <a href="https://www.linkedin.com/in/tejxs/">
+                    <a href="https://www.linkedin.com/in/tejxs/"  target={"_blank"}>
                       <img
                         src="Images/linkdIn.png"
                         style={{ height: "40px", width: "40px" }}
@@ -80,7 +79,7 @@ function Blog() {
                     </a>
                   </CCol>
                   <CCol xs={2}>
-                    <a href="https://twitter.com/__Tejas___">
+                    <a href="https://twitter.com/__Tejas___" target={"_blank"}>
                       <img
                         src="Images/twitter.png"
                         style={{ height: "40px", width: "40px" }}
